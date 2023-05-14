@@ -1,0 +1,42 @@
+body{
+    font-family: amiri;
+    margin: 0;
+}
+
+header{
+    
+}
+
+#head{
+    display: flex;
+    
+}
+.header-nav{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    border: 15px solid none;
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 50px;
+    
+    
+    
+}
+
+.header-nav a{
+    text-decoration: none;
+    border-left: 50px solid none;
+    padding-left: 50px
+    
+}
+
+main{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+#header-im{
+    padding: 40px;
+    border: 20px solid none;
+
+}
