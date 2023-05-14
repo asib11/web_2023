@@ -1,6 +1,7 @@
 body{
     font-family: amiri;
-    margin: 0;
+    margin-bottom: 30px solid;
+    
 }
 
 header{
@@ -32,17 +33,23 @@ header{
     
 }
 
-main{
-    font-family: 'Pacifico', cursive;
-    font-size: 50px;
-    text-align: center;
-    border: 0px 20px;
-    width: 100%;
-}
+
 #header-im{
     padding: 40px;
     margin: 20px solid;
 
+}
+
+main{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-align: center;
+    border: 0px 20px;
+    width: 100%;
+    
+}
+main span{
+    text-transform: capitalize;
 }
 
 .middle{
@@ -52,4 +59,12 @@ main{
 }
 .middle-div{
     width: 50%;
+}
+
+footer{
+    background-image: url('w8ZJLtJbmuph.gif');
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    text-align: right;
+    
 }
