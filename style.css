@@ -59,7 +59,7 @@ main span{
 }
 .middle-div{
     width: 50%;
-    margin: 5px;
+    margin: 10px;
 }
 
 footer{
@@ -67,4 +67,9 @@ footer{
     background-repeat: no-repeat;
     /* background-size: 100% 100%; */
     text-align: right;
+}
+
+.middle-div img{
+    width:580px;
+    height: 420px;
 }
