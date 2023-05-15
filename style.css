@@ -1,12 +1,8 @@
 body{
-    font-family: amiri;
     margin-bottom: 30px solid;
     
 }
 
-header{
-    
-}
 
 #head{
     display: flex;
@@ -19,9 +15,7 @@ header{
     width: 50%;
     padding-top: 100px;
     padding-left: 50px;
-    
-    
-    
+      
 }
 
 .header-nav a{
@@ -29,8 +23,11 @@ header{
     text-decoration: none;
     margin-left: 50px solid;
     padding-left: 50px
-    
-    
+     
+}
+
+.header-nav a:hover{
+    color: red;
 }
 
 
@@ -38,6 +35,10 @@ header{
     padding: 40px;
     margin: 20px solid;
 
+}
+
+h3:hover{
+    color: red;
 }
 
 main{
@@ -65,11 +66,21 @@ main span{
 footer{
     background-image: url('w8ZJLtJbmuph.gif');
     background-repeat: no-repeat;
-    /* background-size: 100% 100%; */
     text-align: right;
 }
 
 .middle-div img{
     width:580px;
     height: 420px;
+}
+
+.span-text:hover{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer span{
+    font-family: 'Pacifico', cursive;
+    color: rgb(0, 214, 214);
+    
 }
