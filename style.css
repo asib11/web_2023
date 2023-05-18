@@ -1,12 +1,10 @@
 body{
-    margin-bottom: 30px solid;
-    
+    margin-bottom: 30px solid;  
 }
 
 
 #head{
     display: flex;
-    
 }
 .header-nav{
     font-family: 'Pacifico', cursive;
@@ -81,6 +79,6 @@ footer{
 
 footer span{
     font-family: 'Pacifico', cursive;
-    color: rgb(0, 214, 214);
+    color: aqua;
     
 }
