@@ -18,6 +18,12 @@ h1{
 
 .dropdown{
     display: none; 
+    position: absolute;
+    margin: 0;
+    padding-left: 0;
+}
+.dropdown li{
+    
 }
 
 .header-nav{
@@ -53,7 +59,7 @@ h1{
     margin: 20px;
 
 }
-h3{
+h3, h2{
     font-family: 'Pacifico', cursive;
 }
 h3:hover{
