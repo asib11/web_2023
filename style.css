@@ -1,10 +1,13 @@
 body{
-    margin-bottom: 30px solid;  
+    margin-bottom: 10% solid;  
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
 }
 
 h1{
-    font-family: 'Kalam', cursive;
+    font-weight: 200;
+    background-color: azure;
 }
 #head {
     display: flex;
@@ -22,25 +25,23 @@ h1{
     margin: 0;
     padding-left: 0;
 }
-.dropdown li{
-    
-}
 
 .header-nav{
     
     font-family: 'Pacifico', cursive;
-    font-size: 20px;
-    margin: 15px;
+    font-size: 130%;
+    /* margin: 1.5%; */
     width: 50%;
-    padding-top: 100px;
-    padding-left: 50px;
+    padding-top: 5%;
+    padding-right: 5%;
       
 }
 
 .header-nav li{
     list-style: none;
-    margin: 0 5px;
-    padding: 0 20px;
+    margin: 0 2%;
+    padding: 0 6%;
+    
 }
 .header-nav li a{
     color: black;
@@ -55,8 +56,8 @@ h1{
 
 
 #header-im{
-    padding: 40px;
-    margin: 20px;
+    padding: 1% 1% 1% 2%;
+    margin: 1% 1% 1% 2%;
 
 }
 h3, h2{
@@ -70,7 +71,7 @@ main{
     
     font-size: 40px;
     text-align: center;
-    margin:20px;
+    margin:0;
     width: 100%;
     
 }
@@ -84,7 +85,7 @@ main span{
 }
 .middle-div{
     width: 50%;
-    margin: 10px;
+    margin: 2%;
 }
 
 footer{
@@ -97,20 +98,39 @@ footer{
 }
 
 .middle-div img{
-    width:580px;
-    height: 420px;
+    width:110%;
+    height: 65%;
 }
 
 .span-text:hover{
     background-color: black;
     color: white;
-    text-decoration: underline;
     padding: 0 1%;
 }
 
 footer span{
     font-family: 'Pacifico', cursive;
     color: aqua;
+       
+}
+
+.skill{
+    display: flex;
     
-    
+}
+
+.skill-icon{
+    width: 50%;
+    font-size: 200%;
+    background-color: azure;
+    padding: 3% 0;
+}
+
+.skill-icon h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.skill-icon:hover{
+    color: red;
 }
