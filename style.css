@@ -1,28 +1,45 @@
 body{
     margin-bottom: 30px solid;  
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
-#head{
+h1{
+    font-family: 'Kalam', cursive;
+}
+#head {
     display: flex;
 }
+.header-nav > ul{
+    display: flex;
+}
+.header-nav > ul > li:hover > ul {
+    display: block;
+}
+
+.dropdown{
+    display: none; 
+}
+
 .header-nav{
+    
     font-family: 'Pacifico', cursive;
     font-size: 20px;
-    margin: 15px solid;
+    margin: 15px;
     width: 50%;
     padding-top: 100px;
     padding-left: 50px;
       
 }
 
+.header-nav li{
+    list-style: none;
+}
 .header-nav a{
     color: black;
     text-decoration: none;
-    margin-left: 50px solid;
-    padding-left: 50px
-     
+    padding-left: 50px ;
 }
+
 
 .header-nav a:hover{
     color: red;
@@ -31,16 +48,18 @@ body{
 
 #header-im{
     padding: 40px;
-    margin: 20px solid;
+    margin: 20px;
 
 }
-
+h3{
+    font-family: 'Pacifico', cursive;
+}
 h3:hover{
     color: red;
 }
 
 main{
-    font-family: 'Pacifico', cursive;
+    
     font-size: 40px;
     text-align: center;
     margin:20px;
@@ -53,7 +72,6 @@ main span{
 
 .middle{
     display: flex;
-    
     font-size: 24px;
 }
 .middle-div{
@@ -74,7 +92,7 @@ footer{
 
 .span-text:hover{
     color: red;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
 }
 
 footer span{
