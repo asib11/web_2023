@@ -102,8 +102,10 @@ footer{
 }
 
 .span-text:hover{
-    color: red;
+    background-color: black;
+    color: white;
     text-decoration: underline;
+    padding: 0 1%;
 }
 
 footer span{
