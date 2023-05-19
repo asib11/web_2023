@@ -91,6 +91,9 @@ footer{
     background-image: url('w8ZJLtJbmuph.gif');
     background-repeat: no-repeat;
     text-align: right;
+    background-color: black;
+    color: white;
+    padding-right: 1%;
 }
 
 .middle-div img{
@@ -106,5 +109,6 @@ footer{
 footer span{
     font-family: 'Pacifico', cursive;
     color: aqua;
+    
     
 }
