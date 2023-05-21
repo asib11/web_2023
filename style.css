@@ -52,6 +52,8 @@ h1{
 
 .header-nav li a:hover{
     color: red;
+    transform: scale(1.5);
+    
 }
 
 
@@ -130,7 +132,13 @@ footer span{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
+    visibility: hidden;
 }
 .skill-icon:hover{
     color: red;
+    transform: scale(1.5) ;
+}
+
+.skill-icon:hover h3{
+    visibility: visible;
 }
